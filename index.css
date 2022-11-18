@@ -1,0 +1,211 @@
+ /* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* CSS Variables */
+/* :root{
+    --navbar-height:59px;
+} */
+body{
+    background-color: rgb(226, 226, 226);
+}
+/* Navigation bar  */
+#navbar{
+    position:sticky;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    
+}
+/*navbar:- Logo and Image */
+#logo{
+    margin: 10px 12px
+    padding: 10px 24px;
+}
+#logo img{
+    margin: 0px 19px;
+    padding: 0px;
+    height: 54px;
+}
+/* navbar:- lists */
+#navbar ul{
+    display: flex;
+
+}
+#navbar::before{
+    content: "";
+    background-color:rgb(43, 46, 43);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top:0px;
+    left:0px;
+    z-index: -1;
+    opacity: .4;
+}
+#navbar ul li{
+    color:white;
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    color:white;
+display: block;
+padding: 3px 20px;
+border-radius: 20px;
+text-decoration: none;
+}
+#navbar ul li a:hover{
+    color:rgb(17, 17, 17);
+    background-color:whitesmoke;
+}
+/* home Section edit */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 125px 176px 0px;
+    height: 350px;
+    justify-content:center;
+    align-items:center;
+}
+#home::before{
+    content: "";
+    background:url(backg.jpeg) no-repeat center center/cover;
+    position: absolute;
+    height: 70%;
+    width: 100%;
+    top:0px;
+    left:0px;
+ z-index: -1;
+ opacity: .90;   
+}
+#home h1{
+    color:rgb(0 0 0);
+    text-align: center;
+}
+#home p{
+    /* font-family: 'EB Garamond', serif; */
+    color:rgb(249, 252, 252);
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/*   history section  */
+#history {
+    margin: 34px;
+    display: flex;
+}
+
+#history .box{
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 17px 200px;
+    border-radius: 10px;
+    background-color: #f1eeed;
+}
+/* culture section home page  */
+
+#culture{
+    margin: 34px;
+    display: flex;
+}
+#culture .box{
+    border: 2px solid brown;
+    padding: 14px;
+    margin: 18px;
+    border-radius: 40px;
+    background-color: #ffe6e3;
+}
+#culture img{
+    height: 187px;
+    display: block;
+    margin: auto;
+    border-radius: 111px;
+}
+/* photo  section  */
+#animation .slides h2{
+    font-size: 2.3rem;
+    text-align: center;
+    color:rgb(133, 22, 22)
+}
+#animation .slidesdiv{
+    width: 70%;
+    height: 400px;
+    position:absolute;
+    display: block;
+    left:15%;
+    z-index: -1;
+    /* top:210%; */
+    background-image: url(img\ 6.jpg);
+    background-size: 100% 100%;
+    box-shadow:1px 2px 10px   rgb(163, 43, 43);
+    animation: slider 10s infinite linear;
+}
+@keyframes slider {
+    0%{background-image: url(HARIDWAR.jpg); }
+    35%{background-image: url(mussoorie.webp);}
+    55%{background-image: url(chamoli.jpg);}
+    75%{background-image: url(jageshwar.jpg);}
+}
+
+ 
+/* utility clss */
+.h-primary{
+    font-size: 3.4rem;
+ 
+}
+.h-secondary{
+    font-size: 1.5rem;
+     padding:12px;
+}
+
+.btn{
+    padding: 6px 20px;
+    border:3px solid white;
+    background-color: darkkhaki;
+    color :white;
+    margin:17px;
+    font-size: 1rem;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.center{
+    text-align: center;
+}
+/* Glimps section  */
+.client-section{ 
+margin-top: 500px;
+ border: 2px solid black;
+ background-color: blanchedalmond;
+}
+.client-section::before{ 
+   content: "";
+   position: absolute;
+   z-index: -1;
+   opacity: .4;
+    }
+#client{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.client-item{
+    padding: 34px;
+}
+#client img{
+    height: 150px;
+}
+/* footer style  */
+footer {
+    background: #cbcea7;
+    color: #212529;
+    padding: 12px 560px;
+}
+.social-icon {
+    margin: 20px 10px;
+}

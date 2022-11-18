@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+     background-image: url(mountains.jpg); 
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+}
+
+.container {
+    max-width: 655px;
+    width: 100%;
+    padding: 23px 21px;
+    border-radius: 24px;
+    box-shadow: 9px 9px 7px #fff, -14px -13px 10px #71b7e6;
+}
+
+.container .digi {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.container .title {
+    font-size: 51px;
+    font-weight: 500;
+    position: relative;
+    margin-bottom: 54px;
+    margin-top: -23px;
+}
+
+.container .title::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    height: 0px;
+    width: 0px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+.container form .user-details {
+    width: 274px;
+    justify-content: space-between;
+    margin-bottom: 2px;
+}
+
+form .user-details .input-box {
+    margin-bottom: 15px;
+    width: calc(100%/2-20px);
+}
+
+.user-details .input-box .details {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.user-details .input-box input {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+
+.user-details .input-box input:focus,
+.user-details .input-box input:valid {
+    border-color: #9b59b6;
+}
+
+form .button {
+    width: 91px;
+    height: 54px;
+    margin: 17px 73px;
+}
+
+form .button input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    /* background: linear-gradient(135deg, #71b7e6, #9b59b6); */
+    background-color: #07006e;
+}
+
+
+.input-box{
+    font-size: 25px;
+}
+
+form .button input:hover {
+    background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+    color: aqua;
+    box-shadow: 10px 10px 12px #ccc;
+}
+
+@media(max-width:584px) {
+    .container {
+        max-width: 100%;
+    }
+    form .user-details .input-box {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    .container form .user-details {
+        max-height: 300px;
+        overflow-y: scroll;
+    }
+}

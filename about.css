@@ -1,0 +1,24 @@
+#container{
+    display: flex;
+    justify-content: center;
+}
+.right img{
+    height: 240px;
+    width: 321px;
+    margin: 9px;
+    padding: 7px;
+
+}
+body {
+    background-image: url('paper-flower-background-4794429.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  #box{
+      
+      display: flex;
+     
+      justify-content: center;
+     flex-direction: column;
+  }

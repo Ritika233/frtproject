@@ -1,0 +1,123 @@
+ <section id="division">
+        <div class="region">
+            <!-- garhwal region define  -->
+            <h2 class="h-primary center">GARHWAL REGION</h2>
+            <p class="center">The Garhwal Himalayas appear to have been a favorite locale for the voluminous
+                mythology of the Puranic period. The traditional name of Garhwal was kedarkhand means "the land of
+                God".[3] Excavations have revealed that it formed part of the Mauryan Empire.
+            </p>
+            <!--7 garhwali districts  -->
+
+            <div>
+                <div id="district">
+                    <div class="card" style="width: 18rem;">
+                        <img src="puri.jpg" class="card-img-top" alt="puri district">
+                        <div class="card-body">
+                          <h4 class="center">Pauri</h4>
+                          <p class="card-text">Pauri is a town and a municipal board in Pauri Garhwal district in the Indian state of Uttarakhand. Pauri is the seat of the Divisional Commissioner of the Garhwal Division.</p>
+                        </div>
+                      </div>
+                      <div class="card" style="width: 18rem;">
+                        <img src="HARI.jpg" class="card-img-top" alt="haridwar image">
+                        <div class="card-body">
+                          <h4 class="center">Haridwar</h4>
+                          <p class="card-text">Haridwar district also spelled as Hardwar is a district in the state of Uttarakhand, India. It is headquartered at Haridwar which is also its largest city </p>
+                        </div>
+                      </div>
+                      <div class="card" style="width: 18rem;">
+                        <img src="dun.jfif" class="card-img-top" alt="dun image">
+                        <div class="card-body">
+                          <h4 class="center">Dehradun</h4>
+                          <p class="card-text">Dehradun district is a district of Uttarakhand state in northern India. The district headquarters is Dehradun, which has also served as the interim capital of Uttarakhand since its founding in 2000.  </p>
+                        </div>
+                      </div>
+                      <div class="card" style="width: 18rem;">
+                        <img src="kedar.jpg" class="card-img-top" alt="chamoli">
+                        <div class="card-body">
+                          <h4 class="center">Chamoli</h4>
+                          <p class="card-text">
+                            Chamoli is a beautiful town nestled in the Garhwal Himalayas of Uttarakhand. It is perched at an elevation of 1300 metres above sea level and is bedecked on the holy banks of river Alaknanda. </p>
+                        </div>
+                      </div>
+                      <div class="card" style="width: 18rem;">
+                        <img src="rudrapryag.jpg" class="card-img-top" alt="Rudrapryag">
+                        <div class="card-body">
+                          <h4 class="center">Rudrapryag</h4>
+                          <p class="card-text">Rudraprayag is a district of the state of Uttarakhand of northern India. The district occupies an area of 1984 km². The town of Rudraprayag is the administrative headquarters of the district. </p>
+                        </div>
+                      </div>
+                      <div class="card" style="width: 18rem;">
+                        <img src="trhri.jpg" class="card-img-top" alt="tehri ">
+                        <div class="card-body">
+                          <h4 class="center">Tehrii Garhwal</h4>
+                          <p class="card-text">Tehri Garhwal is a district in the hill state of Uttarakhand, India. Its administrative headquarters is at New Tehri. The district has a population of 618, 931, a 2.35% increase over the previous decade</p>
+                        </div>
+                      </div>
+                      <div class="card" style="width: 18rem;">
+                        <img src="uttarkashi.jfif" class="card-img-top" alt="uttarkashi">
+                        <div class="card-body">
+                          <h4 class="center">Uttarkashi</h4>
+                          <p class="card-text">Uttarkashi District is a district of Garhwal division of the Uttarakhand state in northern India, and has its headquarters at Uttarkashi city. It has six Tehsils namely Barkot, Dunda, Bhatwadi, Chinyalisaur, Purola and Mori. </p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+        <div class="region">
+            <!-- kumaon region define  -->
+            <h2 class="h-primary center">KUMAON REGION</h2>
+            <p class="center">Kumaon is a revenue and administrative division in the Indian State of Uttarakhand. It spans over the eastern half of the state and is bounded on the north by Tibet, on the east by Nepal, on the south by the state of Uttar Pradesh, and on the west by the Garhwal region.
+            </p>
+            <!--7 kumaon districts  -->
+
+            
+                <div id="district">
+                    <div class="card" style="width: 18rem;">
+                        <img src="pithoragarh.jfif" class="card-img-top" alt="puri district">
+                        <div class="card-body">
+                          <h4 class="center">Pithoragarh</h4>
+                          <p class="card-text">Pithoragarh district is the easternmost district in the state of Uttarakhand. It is located in the Himalayas and has an area of 7,110 km² and a population of 483,439. The city of Pithoragarh, located in Saur Valley, is its headquarters. The district is within the Kumaon division of Uttarakhand state.</p>
+                        </div>
+                      </div>
+                      <div class="card" style="width: 18rem;">
+                        <img src="bageshwar.jfif" class="card-img-top" alt="bageshwar image">
+                        <div class="card-body">
+                          <h4 class="center">Bageshwar</h4>
+                          <p class="card-text">Bageshwar is a district of Uttarakhand state in northern India. The town of Bageshwar is the district headquarters. Prior to its establishment as a district in 1997 it was part of Almora district.</p>
+                        </div>
+                      </div>
+                      <div class="card" style="width: 18rem;">
+                        <img src="almora.jpg" class="card-img-top" alt="Almora image">
+                        <div class="card-body">
+                          <h4 class="center">Almora</h4>
+                          <p class="card-text">Almora is a district in the Kumaon Division of Uttarakhand state, India. The headquarters is at Almora. It is 1,638 meters above sea level. The neighbouring regions are Pithoragarh district to the east, Chamoli district to the west, Bageshwar district to the north and Nainital district to the south.  </p>
+                        </div>
+                      </div>
+                      <div class="card" style="width: 18rem;">
+                        <img src="nanital.jpg" class="card-img-top" alt="nanital img">
+                        <div class="card-body">
+                          <h4 class="center">Nainital</h4>
+                          <p class="card-text">
+                            Nainital district is a district in Kumaon division which is a part of Uttarakhand state, India. The headquarters is at Nainital. Nainital District is located in Kumaon Division, and is bounded on the north by the Almora District and on the south by the Udham Singh Nagar District.  </p>
+                        </div>
+                      </div>
+                      <div class="card" style="width: 18rem;">
+                        <img src="champawat.jpg" class="card-img-top" alt="champawat img">
+                        <div class="card-body">
+                          <h4 class="center">Champawat</h4>
+                          <p class="card-text">Champawat district is a district of Uttarakhand state in northern India. The town of Champawat is the administrative headquarters. The district of Champawat constituted in the year 1997. The district is divided into five tehsils: Barakot, Lohaghat, Pati, Purnagiri. </p>
+                        </div>
+                      </div>
+                      
+                      <div class="card" style="width: 18rem;">
+                        <img src="udham.jfif" class="card-img-top" alt="udham singh nagar">
+                        <div class="card-body">
+                          <h4 class="center">Udham Singh Nagar</h4>
+                          <p class="card-text">Udham Singh Nagar District is a district of Uttarakhand state in northern India. Rudrapur is the district headquarters. This district consists of seven Tehsils named Bajpur, Gadarpur, Jaspur, Kashipur, Kichha, Khatima, Sitarganj. The district is located in the Terai region, and is part of Kumaon Division </p>
+                        </div>
+                      </div>
+                </div>
+             
+        </div>
+
+    </section>

@@ -1,0 +1,102 @@
+/* navigation bar  */
+#navbar {
+    flex-direction: column;
+}
+#navbar ul li a{
+    color: white;
+    font-size: 1rem;
+    padding: 0px 7px;
+}
+#navbar::before {
+    content: "";
+    background-color: rgb(43, 46, 43);
+    position: absolute;
+    height: 119%;
+    width: 320%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.4;
+}
+/* home  */
+#home{
+    height: 400px;
+    padding: 62px 103px 1px
+}
+#home::before{
+    height:465px;
+}
+#home p{
+    font-size: 5px;
+    color: rgb(252, 248, 5);
+}
+
+/* culture  */
+#culture{
+    flex-direction: column;
+}
+#culture .box{
+    border: 2px solid brown;
+    padding: 0px;
+    margin: 2px;
+    border-radius: 5px;
+    background-color: #ffe6e3;
+}
+
+#culture .box img {
+    height: 49px;
+    display: block;
+    margin: auto;
+}
+
+/* history */
+#history{
+    margin: 0px;
+}
+#history .box {
+    padding: 12px;
+    margin: 27px 2px;
+}
+/* animation */
+
+/* client */
+
+.client-item {
+    padding: 6px;
+}
+
+#clients img{
+    width: 6px;
+    height:69px;
+    padding: 6px;
+}
+#client {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+/* food section  */
+#carouselExampleControlsNoTouching .carousel-item img {
+    height: 230px;
+    left: 15%;
+}
+/* food section  */
+#foodcard{
+    flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px 12px 0px;
+}
+/* utility section  */
+.h-primary{
+    font-size:1rem;
+}
+.h-secondary {
+    font-size: 1rem;
+    padding: 6px;
+}
+.btn {
+    font-size: 3px;
+    padding: 2px 3px;
+}

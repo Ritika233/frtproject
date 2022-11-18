@@ -1,0 +1,225 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+    background-color: honeydew;
+}
+.container {
+    max-width: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat-Bold";
+}
+footer {
+    background: #fbfbfb;
+    color: #86a1ca;
+    padding: 9px 20px;
+}
+
+#title {
+    background-image: url(https://www.euttaranchal.com/tourism/photos/chopta-7234142.jpg);
+    background-size: 100% 100%;
+    background-attachment: scroll;
+}
+
+
+#art{
+    border-radius: 5%;
+    box-shadow: 10px 10px 15px #1E212D;
+    
+}
+#art:hover {
+   
+    box-shadow: 10px 10px 15px #1E212D;
+}
+#culture{
+    justify-content: center;
+}
+
+
+
+#rc:hover {
+  
+    box-shadow: 10px 10px 15px #1E212D;
+}
+
+#booksbody {
+    background-image: url(https://images.unsplash.com/photo-1614332625575-6bef549fcc7b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1450&q=80);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+p {
+    color: black;
+    padding-top: 1px;
+}
+
+
+/* Headings */
+
+
+.big-heading {
+    font-family: "Montserrat-Black";
+    padding-top: 22px;
+    font-size: 4.2rem;
+    line-height: 1.0;
+}
+
+.small-heading {
+    font-family: "Montserrat-Black";
+    font-size: 3.2rem;
+    line-height: 1.5;
+}
+
+.author {
+    font-family: "Montserrat-Black";
+    font-size: 2.2rem;
+    line-height: 1.5;
+    color: #FFE3E3;
+}
+
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/*images of the last containers*/
+#fest{
+    justify-content: center;
+}
+#fair{
+    height: 200px;
+    width: 220px;
+    border-radius: 5%;
+}
+#fair:hover{
+    box-shadow: 10px 10px 15px #1E212D;
+}
+/* Containers */
+
+#animation .slides h2{
+    font-size: 2.3rem;
+    text-align: center;
+    color:rgb(133, 22, 22)
+}
+#slides{
+    height: 60%;
+    width: 50%;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+#lastsection{
+    margin-bottom: 10px;
+}
+.slideshow{
+    background-color: #ffe3e3;
+}
+#show{
+    height: 60%;
+    width: 80%;
+    box-shadow: 10px 10px 10px #FFA0A0;
+    
+}
+
+
+#cta {
+    background:#fff;
+    border-radius: 5%;
+    margin-top: 30px;
+ 
+}
+#cta:hover{
+    box-shadow: 10px 10px 5px #FFA0A0;
+}
+#last{
+    background-color:#FEF9EF;
+}
+.container-fluid {
+    padding: 4% 5%;
+}
+
+
+/* Sections */
+
+.colored-section {
+    background-color: #FFE3E3;;
+    color: #fff;
+}
+
+
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+    position: sticky;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 5px 10px;
+    
+}
+#history{
+    color: #212529;
+}
+#empty{
+    height: 90px;
+    width: 100px;
+}
+.nav-link {
+    font-size: 1.7rem;
+    font-family: "Montserrat-Light";
+    align-items: center;
+}
+
+.nav-link:hover{
+   font-size: 1.8rem;
+   color: brown;
+}
+
+
+/* Title Section */
+
+#title {
+    background-color: #003638;
+    color: #fff;
+    text-align: center;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+
+/* Features Section */
+
+#features {
+    position: relative;
+    background-color: rgb(255 227 227);
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+.feature-box {
+    padding: 2.0%;
+}
+
+/* Footer Section */
+
+.social-icon {
+    margin: 20px 10px;
+}
